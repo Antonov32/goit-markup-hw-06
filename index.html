@@ -580,15 +580,17 @@
       </div>
     </footer>
     <!-- Модальне вікно -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-close-icon" width="18" height="18">
             <use href="./images/sprite.svg#icon-close-modal"></use>
           </svg>
         </button>
+        <!-- Заголовок модалки -->
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal-form">
+          <!-- Імʼя -->
           <div class="modal-field">
             <label for="user-name" class="input-label">Ім'я</label>
             <div class="input-wrap">
@@ -603,6 +605,7 @@
               </svg>
             </div>
           </div>
+          <!-- Телефон -->
           <div class="modal-field">
             <label for="user-tel" class="input-label">Телефон</label>
             <div class="input-wrap">
@@ -617,6 +620,7 @@
               </svg>
             </div>
           </div>
+          <!-- Пошта -->
           <div class="modal-field">
             <label for="user-mail" class="input-label">Пошта</label>
             <div class="input-wrap">
@@ -631,6 +635,7 @@
               </svg>
             </div>
           </div>
+          <!-- Коментар -->
           <div class="modal-field">
             <label for="user-comment" class="input-label">Коментар</label>
             <textarea
@@ -640,6 +645,7 @@
               placeholder="Введіть текст"
             ></textarea>
           </div>
+          <!-- Розсилка та умови договору -->
           <div class="modal-field privacy">
             <input
               type="checkbox"
@@ -659,6 +665,7 @@
               </span></label
             >
           </div>
+          <!-- Кнопка відправити -->
           <button type="submit" class="modal-btn">Відправити</button>
         </form>
       </div>
